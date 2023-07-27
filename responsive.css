@@ -1,8 +1,73 @@
 @media screen and (max-width : 600px) {
+    
     nav .row{
         flex-direction: column;
+        height: 120px;
+        justify-content: center;
+        gap: 20px;
     }
     .banner .banner-area h1{
         font-size: 2rem;
+    }
+    .banner .banner-area{
+        padding: 20px;
+    }
+    .team-row{
+        flex-direction: column;
+    }
+    .team-img img{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .team-content h2{
+        font-size:3rem;
+        font-weight: 600;
+    }
+    .team{
+        padding: 40px;
+    }
+    .feature-row{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .experience-box{
+        left: 0px;
+        bottom: -70px;
+    }
+    .feature-content{
+        max-width: 100%;
+    }
+    .feature-content h2{
+        font-size: 2rem;
+    }
+    .fact{
+        padding: 20px;
+    }
+    .fact-top p{
+        width: 100%;
+    }
+    .fact-row{
+        flex-direction: column;
+    }
+    .sponsor-top h2{
+        font-size: 2rem;
+    }
+    .sponsor-top p{
+        max-width: 100%;
+    }
+    .sponsor{
+        padding: 20px;
+    }
+    .sponsor-row{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .sponsor-row img{
+        width: 50%;
+        margin: 0 auto;
+    }
+    footer{
+        padding: 20px;
     }
 }
